@@ -1,12 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 import Products from '../components/Products'
+
+
+const Pro=styled.h3`color:#764abc;`
 
 const Home = () => {
   return (
     <div className='Container'>
-      <h2>Welcome to Redux Toolkit Store</h2>
       <section>
-            <h3>Products</h3>
+            <Pro>Products</Pro>
             <Products />
       </section>
     </div>

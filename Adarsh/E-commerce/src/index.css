@@ -20,7 +20,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-img{
+.Pro_img{
   height: 180px;
 }
 .btn {
@@ -67,3 +67,28 @@ img{
   align-items: center;
   justify-content: space-between
 } */
+
+.Cart_img{
+  position: absolute;
+  size: 1ch;
+  color: #764abc;
+  margin: -1px;
+
+}
+.logoImg{
+   height: 40px;
+   width: 50px;
+   margin-right:10px;
+}
+.name{
+  font-weight: bolder;
+  font-family:'Times New Roman', Times, serif;
+  
+
+}
+.Footer{
+  background-color: rgb(143, 136, 136);
+  margin-top: 10px;
+  color: rgb(245, 233, 233);
+  font-style: unset;
+}
