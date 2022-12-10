@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
@@ -8,8 +7,6 @@ import Carosal from './components/Carosal';
 import Footer from './components/Footer';
 import Login from './pages/LogIn';
 
-
-
 function App() {
   return (
     <div className="App">
@@ -17,9 +14,9 @@ function App() {
         <Header />
         {/* <Carosal/> */}
         <Routes>
-          <Route path='/' element={<Home />}/> 
+          <Route path='/' element={<Login />}/> 
           <Route path='/cart' element={<Cart />}/> 
-          <Route path='/login' element={<Login />}/> 
+          <Route path='/home' element={<Home />}/> 
         </Routes>
         <Footer />
       </BrowserRouter>

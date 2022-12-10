@@ -40,8 +40,8 @@ const Header = () => {
             <span  className='name' onClick={()=>goto("/")}><img src={Shoping} className="logoImg" alt='logo' onClick={()=>goto("/")}/><span style={{color:'yellow'}}> Phoenix Citadel</span><span style={{color:'red'}}> Mall</span></span>
             <Store>Welcome <span style={{color:'yellow'}}> Phoenix Citadel</span><span style={{color:'red'}}> Mall </span></Store>
             <div>
-                <Link className='navLink' to='/' style={{color:'white'}}> Home</Link>
-                <Link className='navLink' to='/login' style={{color:'white'}}>LogIn</Link>
+                <Link className='navLink' to='/home' style={{color:'white'}}> Home</Link>
+                <Link className='navLink' to='/' style={{color:'white'}}>LogIn</Link>
                 <Link className='navLink' to='/cart'><BsFillCartCheckFill style={{color:'white'}}/><Badge bg="secondary" className='Cart_img' style={{color:'white'}}>{item.length} </Badge></Link>
             </div>
         </Navbar>

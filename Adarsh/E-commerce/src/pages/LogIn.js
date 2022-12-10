@@ -35,7 +35,7 @@ function Login() {
       const logInHandler=()=>{
         console.log("usetDetails",userInfo)
         signInWithEmailAndPassword(auth,userInfo.email,userInfo.password)
-        goto("/")
+        goto("/home")
         .catch(function(error) {
           console.log(error.code);
           console.log(error.message);
@@ -68,9 +68,7 @@ function Login() {
           </MDBTabsLink>
         </MDBTabsItem>
       </MDBTabs>
-
       <MDBTabsContent>
-
         <MDBTabsPane show={justifyActive === 'tab1'}>
 
           <div className="text-center mb-3">
