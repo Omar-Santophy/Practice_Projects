@@ -1,0 +1,13 @@
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  tbody.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+.tablebox{
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
