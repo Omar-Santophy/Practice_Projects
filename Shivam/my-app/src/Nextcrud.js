@@ -30,7 +30,7 @@ const NextCrud = () => {
                 <td>{current.name}</td>
                 <td>{current.price}</td>
                 <td>
-                  <button className='edit'>Edit</button>
+                  <button className='edit'>Edit SS</button>
                   <button className='delete'>Delete</button>
 
                 </td>

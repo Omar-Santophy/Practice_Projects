@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Todo = () => {
   const [data, setData] = useState("");
   const [items, setItems] = useState([]);
-  // console.log(data)
+  // console.log(datas)
   const addItem = () => {
     if (!data) {
       data = "null";
