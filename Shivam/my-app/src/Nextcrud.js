@@ -59,7 +59,7 @@ const NextCrud = () => {
     setList(newlist)
   }   
   function handleSubmit(event) {
-    event.preventDefault()
+    event.preventDefaultss()
 
     const name = event.target.elements.name.value
     const price = event.target.elements.price.value
