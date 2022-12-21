@@ -52,7 +52,7 @@ const NextCrud = () => {
                     </tr>
                 ))
               }
-            </table>
+            </table>ghjk
           </form>
         </div>
       </div>
