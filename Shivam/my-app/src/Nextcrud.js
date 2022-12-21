@@ -14,7 +14,16 @@ const NextCrud = () => {
       name: "sp",
       price: "1000"
     },
-   
+    {
+      id: 3,
+      name: "tp",
+      price: "10000"
+    },
+    {
+      id: 4,
+      name: "yp",
+      price: "1000000"
+    },
   ]
 
   const [list, setList] = useState(lists);
@@ -57,9 +66,9 @@ const NextCrud = () => {
   function handleDelete(id){
     const newlist = lists.filter((li)=> li.id !==id)
     setList(newlist)
-  }   
+  } 
   function handleSubmit(event) {
-    event.preventDefaultss()
+    event.preventDefault()
 
     const name = event.target.elements.name.value
     const price = event.target.elements.price.value
