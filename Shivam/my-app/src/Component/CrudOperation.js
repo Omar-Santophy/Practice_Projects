@@ -79,7 +79,7 @@ const CrudOperation = () => {
             );
           })}
         </div>
-        <div className="showItems">
+        <div className="showItems"><br></br>
           <button className="" style={{ color: "red" }} onClick={allDelete}> Remove all </button>
         </div>
       </div>
