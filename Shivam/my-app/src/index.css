@@ -12,7 +12,8 @@ code {
     monospace;
 } */
 
-.Header {
+/* Nextcrud project css (start) */
+/* .Header {
   text-align: center;
   color: orangered;
 
@@ -73,8 +74,86 @@ table td button.delete:hover {
 }
 .addform button hover{
 background-color: aquamarine  ;
+} */
+/* Nextcrud project css (End) */
+
+
+
+/* Animal birthday css start */
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.container {
+  width: 90vw;
+  margin: 5rem 0;
+  max-width: var(--fixed-width);
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 1.5rem 2 rem;
+  box-shadow: var(--dark-shadow);
+}
 
+.container h3 {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  color: rgb(255, 0, 204);
+  text-align: center;
+}
 
+.Animals {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
 
+.Animals img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* box-shadow: var(--light-shadow); */
+}
+
+.Animals h4 {
+  margin-bottom: 0.35rem;
+  color: red;
+}
+
+.Animals P {
+  margin-bottom: 0;
+  color: blue;
+}
+
+.container button {
+  color: #2e21e3;
+  display: block;
+  width: 50%;
+  border-color: transparent;
+  background: hwb(58 9% 10%);
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: aqua;
+}
+
+/* Animals birthday project css end */
+
+/* ecommerce project css start */
+.nav_bar_wrapper a{
+padding-left:30px;
+}
