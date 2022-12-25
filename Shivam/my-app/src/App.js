@@ -19,7 +19,7 @@ function App() {
       {/* <Newproject/> */}
       <BrowserRouter>
       <Header/>
-      <h2>eCommerce website</h2>
+      <h2>E-commerce website</h2>
       <Routes>
         <Route path="/login" element={<Login />}/> 
         <Route path="/update" element={<UpdateProduct />}/>
